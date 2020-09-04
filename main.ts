@@ -1,7 +1,4 @@
 input.onButtonPressed(Button.A, function () {
-    
-    basic.showNumber(counter)
-    counter += 6
+    const c = counter.addOne();
+    basic.showNumber(c)
 })
-let counter = 0
-counter = 0
